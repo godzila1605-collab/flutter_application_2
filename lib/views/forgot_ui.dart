@@ -11,7 +11,7 @@ class _ForgotUIState extends State<ForgotUI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 9, 250, 81),
+      backgroundColor: const Color.fromARGB(255, 0, 145, 43),
     );
   }
 }
