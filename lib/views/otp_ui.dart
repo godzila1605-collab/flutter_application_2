@@ -103,7 +103,7 @@ class _OtpUIState extends State<OtpUI> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => NewpassUI(),
+                      builder: (context) => NewPassUI(),
                     ),
                   );
                 },
