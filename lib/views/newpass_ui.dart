@@ -1,14 +1,16 @@
+// ignore_for_file: sort_child_properties_last
+
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/views/pass_change_ui.dart';
 
-class NewpassUI extends StatefulWidget {
-  const NewpassUI({super.key});
+class NewPassUI extends StatefulWidget {
+  const NewPassUI({super.key});
 
   @override
-  State<NewpassUI> createState() => _NewpassUIState();
+  State<NewPassUI> createState() => _NewpassUIState();
 }
 
-class _NewpassUIState extends State<NewpassUI> {
+class _NewpassUIState extends State<NewPassUI> {
   bool hideNewPassword = true;
   bool hideConfirmPassword = true;
 
