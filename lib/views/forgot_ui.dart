@@ -1,6 +1,7 @@
 // ignore_for_file: sort_child_properties_last
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/views/newpass_ui.dart';
 
 class ForgotUI extends StatefulWidget {
   const ForgotUI({super.key});
@@ -85,7 +86,14 @@ class _ForgotUIState extends State<ForgotUI> {
               SizedBox(height: 10.0),
               SizedBox(height: 35.0),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => NewPassUI(),
+                    ),
+                  );
+                },
                 child: Text(
                   'Send Code',
                   style: TextStyle(
