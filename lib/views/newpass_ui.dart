@@ -109,18 +109,6 @@ class _NewpassUIState extends State<NewpassUI> {
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(10.0),
                 ),
-                suffixIcon: IconButton(
-                  onPressed: () {
-                    setState(() {
-                      hideNewPassword = !hideNewPassword;
-                    });
-                  },
-                  icon: Icon(
-                    hideNewPassword
-                        ? Icons.visibility_off_rounded
-                        : Icons.visibility_rounded,
-                  ),
-                ),
               ),
             ),
 
@@ -141,18 +129,6 @@ class _NewpassUIState extends State<NewpassUI> {
                 fillColor: Colors.grey[100],
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(10.0),
-                ),
-                suffixIcon: IconButton(
-                  onPressed: () {
-                    setState(() {
-                      hideConfirmPassword = !hideConfirmPassword;
-                    });
-                  },
-                  icon: Icon(
-                    hideConfirmPassword
-                        ? Icons.visibility_off_rounded
-                        : Icons.visibility_rounded,
-                  ),
                 ),
               ),
             ),
